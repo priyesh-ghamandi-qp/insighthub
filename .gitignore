@@ -13,6 +13,8 @@
 # testing
 /coverage
 
+.npmrc
+
 # next.js
 /.next/
 /out/
