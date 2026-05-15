@@ -25,7 +25,7 @@ export default function DashboardLayout({
     <div className="flex flex-col min-h-screen">
       <WuToast />
       <WuAppHeader productName="InsightsHub" categories={[]} />
-      <WuSidebar Sidebar={<DashboardNav />}>
+      <WuSidebar Sidebar={<DashboardNav /> } defaultOpen={false}>
         <main className="flex-1">{children}</main>
       </WuSidebar>
     </div>
